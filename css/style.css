@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 /*Обнуление*/
 *,
 *::before,
@@ -53,8 +55,7 @@ body._lock{
     max-width: 1170px;
     margin: 0px auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
 /* header */
 .page{
     flex: 1 1 auto;
