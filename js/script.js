@@ -1,5 +1,3 @@
-document.ondragstart = noselect;
-function noselect() {return false;} 
 
 const iconMenu = document.querySelector(".menu__icon");
 if (iconMenu) {
