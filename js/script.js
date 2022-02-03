@@ -1,7 +1,7 @@
 
 const iconMenu = document.querySelector(".menu__icon");
 if (iconMenu) {
-    const menuBody = document.querySelector('.header__nav');
+    const menuBody = document.querySelector('.header__menu');
     iconMenu.addEventListener("click", function(e){
         document.body.classList.toggle("_lock");
         iconMenu.classList.toggle("_active");
