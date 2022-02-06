@@ -376,3 +376,103 @@ position: relative;
       font-size: 40px;
    }
 }
+
+/* spaces */
+.page__planets {
+   font-family: 'Bebas Neue', cursive;
+   margin-top: 45px;
+   margin-bottom: 127px;
+   padding: 0 20px;
+}
+.planets {
+}
+.planets__container {
+}
+.planets__body {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+@media (max-width: 701px){
+   .planets__column{
+      margin: 20px 0;
+   }
+   .main-block__body{
+      padding-bottom: 50px;
+   }
+}
+.planets__lable {
+   font-weight: 400;
+font-size: 55px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #F2F2F2;
+margin-bottom: 30px;
+}
+.planets__column {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(rgba(38, 1, 83, 0), rgba(38, 1, 83, 0.2143), rgba(37, 1, 83, 1) );
+   border-radius: 5%;
+}
+@media (min-width: 701px){
+   .planets__column{
+      margin-left: 25px;
+   }
+}
+.saturn-column{
+   background: linear-gradient(rgba(255, 7, 114, 0), rgba(255, 90, 9, 1));
+}
+.planets__image > img{
+  width: 360px;
+  height: 360px;
+}
+.planets__title {
+   margin-top: -50px;
+   font-family: Roboto;
+   font-weight: 600;
+font-size: 29.2058px;
+line-height: 34px;
+text-align: center;
+border-bottom: 2px solid #FF2900;
+font-weight: normal;
+padding-bottom: 10px; 
+color: #FFFFFF;
+}
+.saturn-title{
+   border-bottom: 2px solid #FFF;
+}
+.planets__text {
+   padding-top: 5px;
+   font-family: Roboto;
+   font-weight: 500;
+font-size: 34.0734px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 55px;
+}
+@media (max-width: 500px){
+   .planets__title{
+      font-size: 25px;
+   }
+   .planets__text{
+      font-size: 25px;
+   }
+   .planets__image img{
+      width: 320px;
+      height: 320px;
+   }
+   .planets__lable{
+      max-width: 440px;
+   }
+}
+@media (max-width: 368px){
+   .planets__image img{
+      width: 280px;
+      height: 280px;
+   }
+}
