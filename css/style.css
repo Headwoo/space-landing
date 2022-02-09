@@ -42,7 +42,7 @@ body._lock{
 .wrapper{
    display: flex;
    flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
     overflow: hidden;
 }
 ._container {
@@ -173,13 +173,7 @@ position: relative;
    justify-content: space-between;
    width: 100%;
 }
-/* .main-block__button::after{
-   content: "";
-   background: url(../img/header/arrow.svg) 0 0 no-repeat;
-   padding: 0 15px;
-   margin-left: 70px;
-   margin-right: -60px;
-} */
+
 .main-block__arrow{
    background: url(../img/header/arrow.svg) left no-repeat;
    padding: 0 15px;
@@ -474,5 +468,138 @@ padding-bottom: 55px;
    .planets__image img{
       width: 280px;
       height: 280px;
+   }
+}
+
+/* visit block */
+.block__visit {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url(../img/visit/visit-stars.png) 0 0 repeat;
+   margin-bottom: 182px;
+}
+@media (min-width: 925px){
+   .block__visit{
+      min-height: 100vh;
+   }
+}
+.visit {
+}
+.visit__container {
+}
+.visit__body {
+}
+@media (min-width: 926px){
+   .visit__image{
+      padding-left: 50px;
+   }
+}
+.visit__image img{
+   width: 550px;
+}
+.visit__title {
+   max-width: 484px;
+   display: flex;
+   font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 100%;
+color: #fff;
+margin-bottom: 35px;
+}
+.visit__button {
+   max-width: 175px;
+   max-height: 58px;
+   background: linear-gradient(99.41deg, #FFB018 -12.63%, #FF2900 84.78%);
+border: 2.00351px solid #FFFFFF;
+border-radius: 100.175px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.visit__button-link{
+   padding: 18px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.visit__button-link__text {
+   font-family: Roboto;
+   font-weight: 500;
+font-size: 17.9469px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.visit__button-link__arrow {
+   padding-left: 10px;
+}
+@media (max-width: 1200px){
+   .visit__title{
+      font-size: 80px;
+      max-width: 410px;
+   }
+}
+@media (max-width: 1005px){
+   .visit__title{
+      font-size: 70px; 
+      margin-bottom: 10px;
+      max-width: 340px;
+   }
+   .visit__image img{
+      width: 450px;
+   }
+}
+
+@media (max-width: 925px){
+   .block__visit{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .visit__title{
+      max-width: 600px;
+      padding: 0 20px;
+      text-align: center;
+   }
+   .visit__body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .visit__button{
+      margin: 0 20px;
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 611px){
+      .visit__button-link{
+      width: 100%;
+      justify-content: space-between;
+   }
+}
+@media (max-width: 500px){
+   .visit__image > img{
+      width: 350px;
+   }
+   .visit__title{
+      font-size: 50px;
+   }
+}
+@media (max-width: 1195px){
+   .page__planets{
+      margin-bottom: 80px;
+   }
+}
+@media (max-width: 501px){
+   .page__planets{
+      margin-bottom: 55px;
+   }
+}
+@media (max-width: 388px){
+   .visit__title{
+      max-width: 323px;
    }
 }
