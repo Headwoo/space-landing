@@ -477,7 +477,16 @@ padding-bottom: 55px;
    justify-content: center;
    align-items: center;
    background: url(../img/visit/visit-stars.png) 0 0 repeat;
-   margin-bottom: 182px;
+}
+@media (min-width: 1155px){
+   .block__visit{
+      margin-bottom: 182px;
+   }
+}
+@media (max-width: 1155px){
+   .block__visit{
+      margin-bottom: 82px;
+   }
 }
 @media (min-width: 925px){
    .block__visit{
@@ -601,5 +610,136 @@ color: #FFFFFF;
 @media (max-width: 388px){
    .visit__title{
       max-width: 323px;
+   }
+}
+
+/* block__ultimate */
+.block__ultimate {
+   padding: 0 20px;
+   margin-bottom: 86px;
+}
+@media (min-width: 925px){
+   .block__ultimate{
+      min-height: 100%;
+      margin-bottom: 95px;
+   }
+}
+.ultimate {
+}
+.ultimate__container {
+   display: flex;
+}
+.ultimate__body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.ultimate__title {
+   font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 106%;
+color: #FFFFFF;
+}
+.ultimate__text {
+   font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 167%;
+color: #FFFFFF;
+}
+@media (min-width: 925px){
+   .ultimate__text{
+      margin-bottom: 50px;
+   }
+   @media (min-width: 925px){
+      .ultimate__title{
+         margin-bottom: 20px;
+      }
+   }
+}
+.ultimate__image img{
+   width: 500px;
+}
+.ultimate__button{
+   margin: 0;
+}
+@media (max-width: 1160px){
+   .ultimate__text{
+      margin-bottom: 25px;
+   }
+   .ultimate__title{
+      font-size: 75px;
+   }
+   .ultimate__text{
+      font-size: 16px;
+   }
+   .ultimate__image img{
+      width: 400px;
+   }
+}
+@media (max-width: 1028px){
+   .ultimate__title{
+      font-size: 65px;
+   }
+   .ultimate__text{
+      font-size: 15px;
+   }
+}
+@media (max-width: 938px){
+   .ultimate__title{
+      font-size: 55px;
+   }
+   .ultimate__text{
+      font-size: 16px;
+   }
+   .ultimate__image img{
+      width: 380px;
+   }
+}
+@media (max-width: 925px){
+   .ultimate__container{
+      flex-direction: column-reverse;
+     align-items: center;
+   }
+   .ultimate__title{
+      text-align: center;
+   }
+   .ultimate__text{
+      text-align: center;
+   }
+   .ultimate__title{
+      margin: 10px 0;
+   }
+   .ultimate__text{
+      margin-bottom: 10px;
+   }
+}
+@media (max-width: 654px){
+   .ultimate__title{
+      max-width: 600px;
+      font-size: 50px;
+   }
+   .ultimate__text{
+      font-size: 14px;
+   }
+}
+@media (max-width: 538px){
+   .ultimate__image > img{
+      width: 400px;
+   }
+}
+@media (max-width: 423px){
+   .ultimate__image > img{
+      width: 320px;
+   }
+   .ultimate__title{
+      font-size: 35px;
+      max-width: 400px;
+   }
+   .ultimate__text{
+      font-size: 11px;
    }
 }
