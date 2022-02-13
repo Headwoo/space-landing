@@ -736,10 +736,7 @@ color: #FFFFFF;
       width: 320px;
    }
    .ultimate__title{
-      font-size: 35px;
+      font-size: 45px;
       max-width: 400px;
-   }
-   .ultimate__text{
-      font-size: 11px;
    }
 }
