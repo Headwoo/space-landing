@@ -740,3 +740,131 @@ color: #FFFFFF;
       max-width: 400px;
    }
 }
+
+/* news block */
+
+
+.footer {
+   padding: 0 20px;
+   font-family: 'Inter', sans-serif;
+   background-color: linear-gradient(rgba(74, 24, 140, 1), rgba(12, 0, 61, 1));
+}
+.footer__container {
+}
+.footer__body {
+   display: flex;
+   padding-bottom: 55px;
+   border-bottom: 2px solid rgba(51, 15, 111, 1);
+}
+@media (max-width: 1000px){
+   .footer__body{
+      flex-direction: column;
+   }
+   .footer__logo{
+      margin-bottom: 20px;
+   }
+}
+@media (max-width: 657px){
+   .footer__columns{
+      flex-wrap: wrap;
+      flex-direction: space-between;
+   }
+   .footer{
+      padding: 0 10px;
+   }
+   .footer__list{
+      padding: 10px;
+   }
+}
+.footer__logo {
+   margin-right: 180px;
+}
+.footer__logo-image {
+}
+.footer__column {
+}
+.footer__columns {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.footer__list {
+}
+.footer__item {
+   font-weight: normal;
+font-size: 16px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.footer__item:hover{
+   color: #ff7b47;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+}
+.footer__item-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 156%;
+color: #FFFFFF;
+margin-bottom: 25px;
+}
+.footer__link {
+   padding-right: 12px;
+}
+
+.footer__privacy {
+   padding: 33px 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.footer__copyright {
+   font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #FFFEFF;
+}
+.footer__termPolicy {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFEFF;
+}
+@media (max-width: 580px){
+   .footer__copyright{
+      font-size: 14px;
+   }
+   .footer__termPolicy{
+      font-size: 14px;
+   }
+}
+@media (max-width: 485px){
+   .footer__copyright{
+      margin-bottom: 10px;
+   }
+   .footer__termPolicy > span {
+      padding-left: 5px;
+   }
+   .footer__termPolicy-item {
+      padding-right: 5px;
+   }
+   .footer__privacy{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 0;
+   }
+}
+.footer__termPolicy > span {
+   padding-left: 10px;
+}
+.footer__termPolicy-item {
+   padding-right: 10px;
+   border-right: 2px solid #fff;
+}
+
+.footer__termPolicy > *:hover{
+   color: #ff7b47;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+}
